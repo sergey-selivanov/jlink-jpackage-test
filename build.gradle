@@ -68,7 +68,7 @@ jlink {
         if (org.gradle.internal.os.OperatingSystem.current().linux) {
             installerOptions += [
                 // TODO use imageName, not hardcoded path
-                '--resource-dir', "build/jpackage/Cook Book/lib", // required for icon: https://github.com/beryx/badass-jlink-plugin/issues/148
+//                '--resource-dir', "build/jpackage/Cook Book/lib", // required for icon: https://github.com/beryx/badass-jlink-plugin/issues/148
                 '--linux-shortcut', '--linux-menu-group', 'Other'
             ]
 
